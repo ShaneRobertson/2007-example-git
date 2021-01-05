@@ -1,0 +1,15 @@
+when you localize a local git repo - it will create a branch called master
+
+
+git checkout = will switch branches
+git checkout -b = wil create the branch and switch to it
+git branch = will tell you all the branches and the one your on
+Git branch <name-of-branch> - will create a branch (not switch to it)
+Git checkout
+Git checkout -b <name-of-branch>
+
+
+if you are in a branch and make changes, commit, then your changes are specific to that branch
+HEAD is the current version your in on your code
+git merge <name of branch> - will merge the <name of branch> into the current change
+git branch -d <name of branch> - will delete <name of Branch>
